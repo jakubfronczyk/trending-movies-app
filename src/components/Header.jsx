@@ -22,8 +22,8 @@ const Header = () => {
             <div className="flex items-center space-x-5">
                 <DarkModeSwitch />
                 <Link href="/">
-                    <h2>
-                        <span className="font-bold bg-amber-500 py-1 px-2 rounded-md">
+                    <h2 className="flex gap-1">
+                        <span className="font-bold text-black bg-amber-500 py-1 px-2 rounded-md">
                             TRENDINg
                         </span>
                         <span className="text-xl hidden sm:inline">Movies</span>
