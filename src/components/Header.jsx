@@ -15,7 +15,7 @@ const Header = () => {
                 />
                 <MenuItem
                     title="About"
-                    address="/"
+                    address="/about"
                     Icon={BsInfoCircleFill}
                 />
             </div>
