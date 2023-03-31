@@ -4,7 +4,7 @@ const MenuItem = ({ title, address, Icon }) => {
     return (
         <div>
             <Link
-                className="mx-4 lg:mx-6 hover:text-amber-600"
+                className="mx-4 lg:mx-6 hover:text-blue-600"
                 href={address}
             >
                 <Icon className="text-2xl sm:hidden mx-4" />

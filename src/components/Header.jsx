@@ -23,8 +23,8 @@ const Header = () => {
                 <DarkModeSwitch />
                 <Link href="/">
                     <h2 className="flex gap-1">
-                        <span className="font-bold text-black bg-amber-500 py-1 px-2 rounded-md">
-                            TRENDINg
+                        <span className="font-bold dark:text-white text-black bg-blue-500 py-1 px-2 rounded-md">
+                            TOP
                         </span>
                         <span className="text-xl hidden sm:inline">Movies</span>
                     </h2>
