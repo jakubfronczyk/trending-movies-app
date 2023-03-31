@@ -8,7 +8,7 @@ const Providers = ({ children }) => {
             enableSystem={true}
             attribute="class"
         >
-            <div className="dark:bg-black dark:text-gray-200 text-gray-900 transition-colors duration-300 min-h-screen select-none">
+            <div className="dark:bg-stone-800 dark:text-gray-200 text-gray-900 transition-colors duration-300 min-h-screen select-none">
                 {children}
             </div>
         </ThemeProvider>
