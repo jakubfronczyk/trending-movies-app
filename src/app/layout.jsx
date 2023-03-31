@@ -6,6 +6,7 @@ import Providers from "./Providers";
 export const metadata = {
     title: "Movie Search App",
     description: "Movie Search App for trending movies",
+    icon: "/favicon.ico",
 };
 
 export default function RootLayout({ children }) {
