@@ -15,7 +15,7 @@ const Card = ({ result }) => {
                     className="sm:rounded-top-lg hover:opacity-80 transition-opacity duration-200 rounded-lg"
                     style={{
                         maxWidth: "100%",
-                        maxHeight: "205px",
+                        height: "auto",
                     }}
                     alt="Image is not available"
                     placeholder="blur"
