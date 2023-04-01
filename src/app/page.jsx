@@ -1,10 +1,6 @@
 import Results from "@/components/Results";
 import dynamic from "next/dynamic";
 
-const SearchBox = dynamic(() => import("@/components/SearchBox"), {
-    ssr: false,
-});
-
 const API_KEY = process.env.API_KEY;
 
 export default async function Home({ searchParams }) {
@@ -27,7 +23,6 @@ export default async function Home({ searchParams }) {
 
     return (
         <main>
-            <SearchBox />
             <Results results={results} />
         </main>
     );
