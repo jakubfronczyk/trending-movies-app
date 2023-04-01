@@ -11,7 +11,7 @@ const Card = ({ result }) => {
                         result.backdrop_path || result.poster_path
                     }`}
                     width={550}
-                    height={205}
+                    height={300}
                     className="sm:rounded-top-lg hover:opacity-80 transition-opacity duration-200 rounded-lg"
                     style={{
                         maxWidth: "100%",
