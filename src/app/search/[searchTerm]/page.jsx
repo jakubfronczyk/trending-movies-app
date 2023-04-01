@@ -1,5 +1,4 @@
 import Results from "@/components/Results";
-import SearchBox from "@/components/SearchBox";
 
 const SearchPage = async ({ params }) => {
     const res = await fetch(
@@ -23,7 +22,6 @@ const SearchPage = async ({ params }) => {
 
             {results && (
                 <div>
-                    <SearchBox />
                     <Results results={results} />
                 </div>
             )}
