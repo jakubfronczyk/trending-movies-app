@@ -15,14 +15,14 @@ const Card = ({ result }) => {
                     className="sm:rounded-top-lg hover:opacity-80 transition-opacity duration-200 rounded-lg"
                     style={{
                         maxWidth: "100%",
-                        height: "auto",
+                        maxHeight: "300px",
                     }}
                     alt="Image is not available"
                     placeholder="blur"
                     blurDataURL="/loading.svg"
                 />
                 <div className="py-2">
-                    <p className="line-clamp-3 text-md">{result.overview}</p>
+                    <p className="line-clamp-2 text-md">{result.overview}</p>
                     <h2 className="truncate text-lg font-bold">
                         {result.title || result.name}
                     </h2>
